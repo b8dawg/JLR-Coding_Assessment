@@ -10,4 +10,12 @@ Based on the launch data for the different rocket types:
 The Python code exports a Dash app that presents a table and stacked bar chart for the following data: Launches per year and Launches per Launch site.
 The Python code also exports .csv files for each year, presenting every launch that year, the rocket that was launched and it's launch site.
 
+The respective plots and .csv files are stored in the /results directory.
+
+The following libraries are required:
+ - requests
+ - Pandas
+ - Plotly
+ - dash
+
 Upon running the python code, opening http://127.0.0.1:8050/ will launch the Dash app.
